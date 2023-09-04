@@ -1,6 +1,10 @@
 import controller.PedidoController;
 import model.Cliente;
 import model.Produto;
+import model.Pedido;
+import service.PedidoService;
+import controller.PedidoController;
+
 
 public class Main {
     public static void main(String[] args) {

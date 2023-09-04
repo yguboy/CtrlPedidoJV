@@ -32,4 +32,7 @@ public class Pedido {
     public String toString() {
         return "Pedido [ID: " + id + ", Cliente: " + cliente.getNome() + "]";
     }
+
+    public String getId() {
+    }
 }

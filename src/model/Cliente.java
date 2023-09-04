@@ -15,4 +15,7 @@ public class Cliente {
     public String toString() {
         return "Cliente [ID: " + id + ", Nome: " + nome + "]";
     }
+
+    public String getNome() {
+    }
 }
