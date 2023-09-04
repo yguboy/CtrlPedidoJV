@@ -22,6 +22,7 @@ public class Main {
         pedidoController.adicionarProdutoAoPedido(pedido1, produto1);
         pedidoController.adicionarProdutoAoPedido(pedido1, produto2);
         pedidoController.adicionarProdutoAoPedido(pedido2, produto1);
+        pedidoController.adicionarProdutoAoPedido(pedido2, produto2);
 
         System.out.println("Pedidos de " + cliente1.getNome() + ":");
         for (Pedido pedido : pedidoController.listarPedidosCliente(cliente1)) {
