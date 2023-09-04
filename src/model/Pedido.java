@@ -34,5 +34,10 @@ public class Pedido {
     }
 
     public String getId() {
+        return null;
+    }
+
+    public Object getCliente() {
+        return null;
     }
 }

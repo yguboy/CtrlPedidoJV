@@ -17,4 +17,8 @@ public class Produto {
     public String toString() {
         return "Produto [ID: " + id + ", Nome: " + nome + ", Preço: " + preco + "]";
     }
+
+    public double getPreco() {
+        return 0;
+    }
 }

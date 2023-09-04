@@ -17,5 +17,6 @@ public class Cliente {
     }
 
     public String getNome() {
+        return null;
     }
 }
