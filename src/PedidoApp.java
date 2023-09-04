@@ -59,7 +59,7 @@ class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente [ID: " + id + ", Nome: " + nome + "]";
+        return "\nCliente [ID: " + id + ", Nome: " + nome + "]";
     }
 }
 
@@ -76,7 +76,6 @@ public class PedidoApp {
 
         cliente2.adicionarProdutoAoCarrinho(produto1);
 
-        // Exibindo os detalhes dos clientes e seus carrinhos
         System.out.println(cliente1);
         for (Produto produto : cliente1.getCarrinho()) {
             System.out.println("  - " + produto);
